@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Intelligent Sound Manager</string>
+    <string name="action_debug">Debug</string>
+    <string name="action_settings">Settings</string>
+    <string name="clear_preferences_string">Clear Preferences</string>
+    <string name="unset">Unset</string>
+    <string name="alert_title">Clear Preferences Error</string>
+    <string name="alert_message">Cannot clear preferences while profile is active</string>
+    <string name="failed_worker_title">Failure to Complete</string>
+    <string name="failed_worker_message">Please restart the application</string>
+    <string name="profile_start_time_text">Start time unset</string>
+    <string name="start_time_button_text">Start Time</string>
+    <string name="profile_end_time_text">End time unset</string>
+    <string name="end_time_button_text">End Time</string>
+    <string name="ok_string">OK</string>
+    <string name="cancel_string">CANCEL</string>
+    <string name="stop_now_string">End Now</string>
+    <string name="profile_ring_volume_text">Set Ring</string>
+    <string name="ring_volume_text">Ring:</string>
+    <string name="profile_media_volume_text">Set Media</string>
+    <string name="media_volume_text">Media:</string>
+    <string name="profile_notification_volume_text">Set Notification</string>
+    <string name="notification_volume_text">Notifications:</string>
+    <string name="volume_ring_label">Ring: %1$d</string>
+    <string name="volume_media_label">Media: %1$d</string>
+    <string name="volume_notif_label">Notif: %1$d</string>
+    <string name="profile_new_notification_volume_string">Notification and System Volume: %1$d</string>
+    <string name="profile_new_ring_volume_string">Ring Volume: %1$d</string>
+    <string name="profile_new_media_volume_string">Media Volume: %1$d</string>
+    <string name="profile_name_string">Profile: %1$s</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="dont_disturb_description">Don\'t Disturb</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="profile_favorites_switch">Enable Favorite Contacts</string>
+    <string name="single_card">Single</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="brightness_header">Brightness Control</string>
+    <string name="navigate_back">Back</string>
+
+    <string name="pref_key_enable_feature">enable_feature</string>
+    <string name="pref_title_enable_feature">Limit Auto Brightness</string>
+    <string name="pref_summary_enable_feature">Caps Android\'s auto-brightness at the selected percentage.</string>
+
+    <string name="pref_key_percentage_value">percentage_value</string>
+    <string name="pref_title_percentage_value">Auto Brightness Limit</string>
+    <string name="pref_summary_percentage_value">Set the maximum brightness percentage for the auto-brightness feature.</string>
+
+
+    <string name="brightness_threshold">Brightness Threshold </string>
+
+    <string name="main_subtitle">Automate sound profiles around your day</string>
+    <string name="profiles_header">Sound profiles</string>
+    <string name="profiles_subtitle">Choose a profile to configure or activate.</string>
+    <string name="single_profile_name">Single Profile</string>
+    <string name="periodic_profile_name">Periodic Profile</string>
+    <string name="single_profile_description">Single profile</string>
+    <string name="periodic_profile_description">Periodic profile</string>
+    <string name="profile_status">Profile status</string>
+    <string name="profile_ready">Ready to configure</string>
+    <string name="profile_enable">Enable profile</string>
+    <string name="target_volume">Target volume</string>
+    <string name="profile_hint">Tap a profile to configure its schedule and sound levels.</string>
+    <string name="config_subtitle">Configure when it runs and how your device should behave.</string>
+    <string name="schedule_header">Schedule</string>
+    <string name="start_time_label">Start time</string>
+    <string name="end_time_label">End time</string>
+    <string name="volume_header">Sound levels</string>
+    <string name="behavior_header">Behavior</string>
+
+</resources>

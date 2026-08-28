@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/settings_title">
+
+    <!-- This category holds the main settings. -->
+    <PreferenceCategory android:title="@string/brightness_header">
+
+        <!-- This is the enable/disable switch. -->
+        <SwitchPreferenceCompat
+            android:key="@string/pref_key_enable_feature"
+            android:title="@string/pref_title_enable_feature"
+            android:summary="@string/pref_summary_enable_feature"
+            android:defaultValue="false" />
+
+        <!-- This is the percentage slider (1-100%). -->
+        <SeekBarPreference
+            android:key="pref_key_percentage_value"
+            android:title="Brightness Threshold"
+            android:summary="Set a brightness percentage to override the auto setting."
+            android:defaultValue="80"
+            android:max="100"
+            android:stepSize="10" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
