@@ -18,6 +18,20 @@ I got tired of manually silencing my phone before meetings/class and then forget
 - **Survives reboots** — scheduled profiles are restored via a boot receiver, so a phone restart doesn't quietly cancel your schedule.
 - **Debug screen** — a built-in screen that dumps all stored preferences and sensor state, mostly there so I didn't have to `adb shell dumpsys` everything while testing.
 
+## Screenshots
+
+| Main screen | Profile configuration |
+| --- | --- |
+| ![Main screen](docs/screenshots/main-screen.png) | ![Profile configuration](docs/screenshots/profile-configuration.png) |
+
+| Brightness settings | Home screen widget |
+| --- | --- |
+| ![Settings screen](docs/screenshots/settings.png) | ![Widget on and off states](docs/screenshots/widget-on.png) |
+
+The widget swaps between a plain sun icon when idle and a moon icon with the countdown time once a profile is active:
+
+<img src="docs/screenshots/widget-off.png" width="120" alt="Widget, idle"> <img src="docs/screenshots/widget-on.png" width="120" alt="Widget, active with countdown">
+
 ## How it's put together
 
 The app is plain Java, no third-party backend — everything runs locally on-device.
