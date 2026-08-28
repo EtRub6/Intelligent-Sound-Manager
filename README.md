@@ -24,7 +24,7 @@ I got tired of manually silencing my phone before meetings/class and then forget
 | --- | --- |
 | ![Main screen](docs/screenshots/main-screen.png) | ![Profile configuration](docs/screenshots/profile-configuration.png) |
 
-| Brightness settings | Home screen widget |
+| Brightness settings | |
 | --- | --- |
 | ![Settings screen](docs/screenshots/settings.png) |
 
