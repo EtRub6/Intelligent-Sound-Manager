@@ -26,7 +26,7 @@ I got tired of manually silencing my phone before meetings/class and then forget
 
 | Brightness settings | Home screen widget |
 | --- | --- |
-| ![Settings screen](docs/screenshots/settings.png) | ![Widget on and off states](docs/screenshots/widget-on.png) |
+| ![Settings screen](docs/screenshots/settings.png) |
 
 The widget swaps between a plain sun icon when idle and a moon icon with the countdown time once a profile is active:
 
